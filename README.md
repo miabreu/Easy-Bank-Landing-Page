@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Website Preview](https://6439d6901b10f40740524d3e--celadon-vacherin-1e3a0b.netlify.app)
+- Live Site URL: [Website Preview](https://celadon-vacherin-1e3a0b.netlify.app)
 
 
 ### Built with
