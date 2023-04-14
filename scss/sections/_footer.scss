@@ -1,0 +1,82 @@
+@use "../custom" as *;
+
+.footer {
+  min-height: 12rem;
+  background: $dark-blue;
+  position: relative;
+  &__container {
+    padding: 2rem 0;
+  }
+
+  &__logo {
+    height: 1.2rem;
+    width: auto;
+  }
+
+  &__icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: $white;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  &__item {
+    list-style: none;
+    & a {
+      text-decoration: none;
+      color: $white;
+      font-weight: 300;
+      font-size: 0.9rem;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &__btn {
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      opacity: 1;
+      background: linear-gradient(
+        60deg,
+        $primary-hover 0%,
+        $secondary-hover 100%
+      );
+    }
+  }
+
+  &__copyright {
+    font-size: 0.9rem;
+    color: $grayish-blue;
+  }
+}
+
+.attribution {
+  position: absolute;
+    bottom: 0.65rem;
+  left: 50%;
+  transform: translate(-50%);
+
+  &__content span,
+  a {
+    font-size: 0.8rem;
+    color: $white;
+  }
+  
+  &__content a {
+    position: relative;
+    transition: all 0.1s ease-in-out;
+    bottom: 0;
+    
+
+    &:hover {
+      bottom: 0.15rem;
+  
+    }
+  }
+}

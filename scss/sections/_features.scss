@@ -1,0 +1,23 @@
+@use "../custom" as *;
+
+.features img {
+  width: 4rem;
+  height: auto;
+}
+
+.features {
+  background: $features-gray-bg;
+
+  &__intro {
+    padding-top: 4rem;
+    margin-bottom: 3.5rem;
+
+    @include media-breakpoint-up(xl) {
+      padding-top: 9rem;
+    }
+  }
+
+  &__item {
+    margin-bottom: 3rem;
+  }
+}

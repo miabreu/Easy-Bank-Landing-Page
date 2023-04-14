@@ -1,0 +1,38 @@
+@use "../custom" as *;
+
+.hero {
+  margin-top: 5rem;
+  min-height: 32rem;
+  background: $hero-article-gray-bg;
+  @include media-breakpoint-up(lg) {
+    height: 37rem;
+  }
+
+  &__box {
+    --bs-gutter-x: 0;
+    @include media-breakpoint-up(lg) {
+      top: -10rem;
+    }
+  }
+
+  &__bg {
+    width: 100%;
+    height: auto;
+    @include media-breakpoint-up(lg) {
+      width: 155%;
+    }
+  }
+  &__bg-img {
+    z-index: 100;
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+      top: 20%;
+      left: 30%;
+      width: 110%;
+    }
+  }
+
+  &__btn {
+    margin-bottom: 5rem;
+  }
+}

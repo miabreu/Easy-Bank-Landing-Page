@@ -1,0 +1,42 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.articles {
+  padding-top: 5rem;
+  background: $hero-article-gray-bg;
+
+  &__item span {
+    font-size: 0.8rem;
+  }
+
+  &__item p {
+    font-size: 0.9rem;
+  }
+
+  &__item h4 {
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  &__img-1 {
+    @include articleImg;
+    background-image: url("../images/image-currency.jpg");
+ 
+  }
+  &__img-2 {
+    @include articleImg; 
+    background-image: url("../images/image-restaurant.jpg");   
+  }
+  &__img-3 {
+    @include articleImg;   
+    background-image: url("../images/image-plane.jpg");
+  }
+  &__img-4 {
+    @include articleImg;
+    background-image: url("../images/image-confetti.jpg"); 
+  }
+}
