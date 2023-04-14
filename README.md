@@ -18,11 +18,12 @@ Users should be able to:
 
 ### Screenshot
 
-
+<img width="1400" alt="Screen Shot desktop" src="https://user-images.githubusercontent.com/42332056/232166542-6da566dd-34eb-4147-821a-c07be4e331f5.png">
+<img width="686" alt="Screen Shot mobile" src="https://user-images.githubusercontent.com/42332056/232166538-c99fbe1c-014f-4f3f-8ca9-4353719aaa04.png">
 
 ### Links
 
-- Live Site URL:  
+- Live Site URL: [Website Preview](https://6439d6901b10f40740524d3e--celadon-vacherin-1e3a0b.netlify.app)
 
 
 ### Built with
